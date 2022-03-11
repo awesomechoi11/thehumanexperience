@@ -1,0 +1,41 @@
+#InteractiveList {
+    user-select: none;
+    height: 612px;
+    padding: 0 220px;
+    width: calc(100% - 220px * 2);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    > .left {
+    }
+    > .right {
+    }
+    > .item-wrapper {
+        display: flex;
+    }
+    .list-item {
+        overflow: hidden;
+        cursor: pointer;
+        position: absolute;
+
+        transition: filter 440ms;
+        filter: grayscale(80%);
+        &.selected {
+            filter: grayscale(0%);
+        }
+
+        > img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        > .title {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            color: #c0b8ff;
+            font-size: 110px;
+            mix-blend-mode: difference;
+        }
+    }
+}
