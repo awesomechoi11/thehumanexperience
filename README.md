@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <br>
+  <a href="https://thehumanexperience.art/"><img src="https://github.com/awesomechoi11/thehumanexperience/blob/master/public/logo512.png?raw=true" alt="Markdownify" width="160"></a>
+  <br>
+  <br>
+  thehumanexperience.art
+  <br>
+  <br>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center">Portfolio of Chris Orozco, a photographer. </h4>
+<br>
 
-## Available Scripts
+<p align="center">
+  <a href="#key-interactions">Key Interactions</a> •
+  <a href="#screencaps">Screencaps</a> •
+  <a href="#built-with">Built With</a> •
+  <a href="#credits">Credits</a> •
+  <a href="#check-these-out">Check These Out</a>
+</p>
 
-In the project directory, you can run:
+![screenshot](https://cdn.bmschoi.dev/chrisorozco/readme/firstload.gif)
 
-### `npm start`
+## Key Interactions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+-   **PixiJs**
+    -   Bulge on cursor
+    -   Variable Noise filters
+    -   Scroll-based Visual Efects
+        -   RGB splits
+            -   Blur
+            -   Motion Blur
+-   **Page Transitions**
+    -   Full page transitions
+    -   Waits for assets to load
+-   **Components**
+    -   Webgl/ Pixijs
+    -   Parallax
+        -   Micro-position
+        -   On-scroll reveal
+        -   Mouse/ Scroll Interactions
+        -   Before/ After Sliders
+        -   Image Zoom
+-   **Loaders**
+    -   Page waits for assets to load before showing
+    -   Graceful image reveals
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Screencaps
 
-### `npm test`
+...or visit [thehumanexperience.art](https://thehumanexperience.art/) to see it live!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+#### **Home Page**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](https://cdn.bmschoi.dev/chrisorozco/readme/firstload.gif)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### **Image Component**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![](https://cdn.bmschoi.dev/chrisorozco/readme/image.gif)
 
-### `npm run eject`
+#### **Page Transition**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![](https://cdn.bmschoi.dev/chrisorozco/readme/transition.gif)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### **About Page**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![](https://cdn.bmschoi.dev/chrisorozco/readme/about.gif)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### **Cursor Interaction**
 
-## Learn More
+![](https://cdn.bmschoi.dev/chrisorozco/readme/bulge.gif)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Built with
 
-### Code Splitting
+-   [React](https://github.com/facebook/react)
+-   [Locomotive Scroll](https://github.com/locomotivemtl/locomotive-scroll)
+-   [PixiJS](https://github.com/pixijs/pixijs)
+-   [Framer Motion](https://github.com/framer/motion)
+-   [Prismicio](https://github.com/prismicio/prismic-client)
+-   [Recoil](https://github.com/facebookexperimental/Recoil)
+-   [Sass](https://github.com/sass/node-sass)
+-   [Docker](https://www.docker.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Credits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Made possible by:
 
-### Making a Progressive Web App
+-   [Chris Orozco](https://thehumanexperience.art/about/)
+-   [Philz Coffee](https://www.philzcoffee.com/) - pls gimmie discount
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## Check These Out
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+-   [kongee](https://github.com/awesomechoi11/thehumanexperience) - Portfolio of Sally (Hyunji) Kim, a UI/UX designer.
+-   [researchio](https://github.com/awesomechoi11/researchio) - Main website for re-search.io, a place to find research opportunities.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> Website [bmschoi.dev](https://bmschoi.dev) &nbsp;&middot;&nbsp;
+> Email [brandonchoi2016@gmail.com](mailto:brandonchoi2016@gmail.com)
